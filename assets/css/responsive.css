@@ -13,8 +13,23 @@
     #pokemon-list li {
         margin: 0px;
     }
+    #pokemon-list img {
+        width: 130px;
+    }
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 415px) {
+    #pokemon-list img {
+        width: 110px;
+    }
+}
+
+@media (max-width: 385px) {
+    #pokemon-list img {
+        width: 100px;
+    }
+
+    #pokemon-list {
+        grid-template-columns: 1fr;
+    }
 }
