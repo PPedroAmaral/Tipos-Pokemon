@@ -190,9 +190,3 @@ footer a {
     width: 100%;
     overflow-x: auto;
 }
-
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-}
