@@ -1,0 +1,128 @@
+{
+    "normal": {
+        "vantagens": [],
+        "fraquezas": ["fighting"],
+        "resiste": [],
+        "imune": ["ghost"],
+        "resisteAele": ["rock", "steel"]
+    },
+    "fire": {
+        "vantagens": ["grass", "ice", "bug", "steel"],
+        "fraquezas": ["water", "rock", "ground"],
+        "resiste": ["fire", "grass", "ice", "bug", "steel", "fairy"],
+        "imune": [],
+        "resisteAele": ["rock", "fire", "water", "dragon"]
+    },
+    "water": {
+        "vantagens": ["fire", "rock", "ground"],
+        "fraquezas": ["electric", "grass"],
+        "resiste": ["fire", "water", "ice", "steel"],
+        "imune": [],
+        "resisteAele": ["water", "grass", "dragon"]
+    },
+    "electric": {
+        "vantagens": ["water", "flying"],
+        "fraquezas": ["ground"],
+        "resiste": ["electric", "flying", "steel"],
+        "imune": [],
+        "resisteAele": ["electric", "grass", "dragon"]
+    },
+    "grass": {
+        "vantagens": ["water", "rock", "ground"],
+        "fraquezas": ["fire", "ice", "poison", "flying", "bug"],
+        "resiste": ["water", "grass", "electric", "ground"],
+        "imune": [],
+        "resisteAele": ["fire", "poison", "flying", "bug", "dragon", "steel"]
+    },
+    "ice": {
+        "vantagens": ["grass", "ground", "flying", "dragon"],
+        "fraquezas": ["fire", "fighting", "rock", "steel"],
+        "resiste": ["ice"],
+        "imune": [],
+        "resisteAele": ["fire", "water", "ice", "steel"]
+    },
+    "fighting": {
+        "vantagens": ["normal", "ice", "rock", "dark", "steel"],
+        "fraquezas": ["flying", "psychic", "fairy"],
+        "resiste": ["bug", "rock", "dark"],
+        "imune": [],
+        "resisteAele": ["poison", "flying", "psychic", "bug", "fairy"]
+    },
+    "poison": {
+        "vantagens": ["grass", "fairy"],
+        "fraquezas": ["ground", "psychic"],
+        "resiste": ["grass", "fighting", "poison", "bug", "fairy"],
+        "imune": [],
+        "resisteAele": ["poison", "ground", "rock", "ghost"]
+    },
+    "ground": {
+        "vantagens": ["fire", "electric", "poison", "rock", "steel"],
+        "fraquezas": ["water", "ice", "grass"],
+        "resiste": ["poison", "rock"],
+        "imune": ["electric"],
+        "resisteAele": ["bug", "grass"]
+    },
+    "flying": {
+        "vantagens": ["grass", "fighting", "bug"],
+        "fraquezas": ["electric", "ice", "rock"],
+        "resiste": ["grass", "fighting", "bug"],
+        "imune": ["ground"],
+        "resisteAele": ["electric", "rock", "steel"]
+    },
+    "psychic": {
+        "vantagens": ["fighting", "poison"],
+        "fraquezas": ["bug", "ghost", "dark"],
+        "resiste": ["fighting", "psychic"],
+        "imune": [],
+        "resisteAele": ["steel", "psychic"]
+    },
+    "bug": {
+        "vantagens": ["grass", "psychic", "dark"],
+        "fraquezas": ["fire", "flying", "rock"],
+        "resiste": ["grass", "fighting", "ground"],
+        "imune": [],
+        "resisteAele": ["fire", "fighting", "poison", "flying", "ghost", "steel", "fairy"]
+    },
+    "rock": {
+        "vantagens": ["fire", "ice", "flying", "bug"],
+        "fraquezas": ["water", "grass", "fighting", "ground", "steel"],
+        "resiste": ["normal", "fire", "poison", "flying"],
+        "imune": [],
+        "resisteAele": ["fighting", "ground", "steel"]
+    },
+    "ghost": {
+        "vantagens": ["psychic", "ghost"],
+        "fraquezas": ["ghost", "dark"],
+        "resiste": ["poison", "bug"],
+        "imune": ["normal", "fighting"],
+        "resisteAele": ["dark"]
+    },
+    "dragon": {
+        "vantagens": ["dragon"],
+        "fraquezas": ["ice", "dragon", "fairy"],
+        "resiste": ["fire", "water", "electric", "grass"],
+        "imune": [],
+        "resisteAele": ["steel"]
+    },
+    "dark": {
+        "vantagens": ["psychic", "ghost"],
+        "fraquezas": ["fighting", "bug", "fairy"],
+        "resiste": ["ghost", "dark"],
+        "imune": ["psychic"],
+        "resisteAele": ["fighting", "dark", "fairy"]
+    },
+    "steel": {
+        "vantagens": ["ice", "rock", "fairy"],
+        "fraquezas": ["fire", "fighting", "ground"],
+        "resiste": ["normal", "grass", "ice", "flying", "psychic", "bug", "rock", "dragon", "steel", "fairy"],
+        "imune": ["poison"],
+        "resisteAele": ["fire", "water", "electric", "steel"]
+    },
+    "fairy": {
+        "vantagens": ["fighting", "dragon", "dark"],
+        "fraquezas": ["poison", "steel"],
+        "resiste": ["fighting", "bug", "dark"],
+        "imune": ["dragon"],
+        "resisteAele": ["fire", "poison", "steel"]
+    }
+}

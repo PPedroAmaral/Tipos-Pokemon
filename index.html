@@ -1,0 +1,118 @@
+<!DOCtype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipagem Pokémon</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="./assets/images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Escolha os tipos</h1>
+    </header>
+
+    <nav class="type-nav">
+        <div class="list">
+            <label class="type-label normal">
+                <input type="checkbox" name="type" value="normal" onclick="limiteTipos(this)">
+                <span class="type-text">Normal</span>
+            </label>
+            <label class="type-label fire">
+                <input type="checkbox" name="type" value="fire" onclick="limiteTipos(this)">
+                <span class="type-text">Fire</span>
+            </label>
+            <label class="type-label water">
+                <input type="checkbox" name="type" value="water" onclick="limiteTipos(this)">
+                <span class="type-text">Water</span>
+            </label>
+            <label class="type-label electric">
+                <input type="checkbox" name="type" value="electric" onclick="limiteTipos(this)">
+                <span class="type-text">Electric</span>
+            </label>
+            <label class="type-label grass">
+                <input type="checkbox" name="type" value="grass" onclick="limiteTipos(this)">
+                <span class="type-text">Grass</span>
+            </label>
+            <label class="type-label ice">
+                <input type="checkbox" name="type" value="ice" onclick="limiteTipos(this)">
+                <span class="type-text">Ice</span>
+            </label>
+            <label class="type-label fighting">
+                <input type="checkbox" name="type" value="fighting" onclick="limiteTipos(this)">
+                <span class="type-text">Fighting</span>
+            </label>
+            <label class="type-label poison">
+                <input type="checkbox" name="type" value="poison" onclick="limiteTipos(this)">
+                <span class="type-text">Poison</span>
+            </label>
+            <label class="type-label ground">
+                <input type="checkbox" name="type" value="ground" onclick="limiteTipos(this)">
+                <span class="type-text">Ground</span>
+            </label>
+            <label class="type-label flying">
+                <input type="checkbox" name="type" value="flying" onclick="limiteTipos(this)">
+                <span class="type-text">Flying</span>
+            </label>
+            <label class="type-label psychic">
+                <input type="checkbox" name="type" value="psychic" onclick="limiteTipos(this)">
+                <span class="type-text">Psychic</span>
+            </label>
+            <label class="type-label bug">
+                <input type="checkbox" name="type" value="bug" onclick="limiteTipos(this)">
+                <span class="type-text">Bug</span>
+            </label>
+            <label class="type-label rock">
+                <input type="checkbox" name="type" value="rock" onclick="limiteTipos(this)">
+                <span class="type-text">Rock</span>
+            </label>
+            <label class="type-label ghost">
+                <input type="checkbox" name="type" value="ghost" onclick="limiteTipos(this)">
+                <span class="type-text">Ghost</span>
+            </label>
+            <label class="type-label dragon">
+                <input type="checkbox" name="type" value="dragon" onclick="limiteTipos(this)">
+                <span class="type-text">Dragon</span>
+            </label>
+            <label class="type-label dark">
+                <input type="checkbox" name="type" value="dark" onclick="limiteTipos(this)">
+                <span class="type-text">Dark</span>
+            </label>
+            <label class="type-label steel">
+                <input type="checkbox" name="type" value="steel" onclick="limiteTipos(this)">
+                <span class="type-text">Steel</span>
+            </label>
+            <label class="type-label fairy">
+                <input type="checkbox" name="type" value="fairy" onclick="limiteTipos(this)">
+                <span class="type-text">Fairy</span>
+            </label>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="exibir-pokemon">
+            <h2>Pokémon Correspondentes</h2>
+            <ul id="pokemon-list"></ul>
+        </div>
+
+        <div class="exibir-VD">
+            <div class="vantagens"></div>
+            <div class="desvantagens"></div>
+            <div class="resite"></div>
+            <div class="imune"></div>
+            <div class="resisteAele"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Feito por <a href="https://github.com/PPedroAmaral" rel="nofollow" target="_blank">Pedro Amaral</a></p>
+    </footer>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
